@@ -1,0 +1,21 @@
+{
+  "name": "jpg-to-webp-landing",
+  "version": "1.0.0",
+  "description": "Landing page for JPG to WebP Chrome extension",
+  "scripts": {
+    "build": "node build.mjs",
+    "dev": "node build.mjs && live-server _site --port=3000",
+    "start": "node build.mjs && live-server _site --port=3000 --no-browser"
+  },
+  "keywords": [
+    "chrome extension",
+    "webp",
+    "jpg",
+    "landing page"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "live-server": "^1.2.2"
+  }
+}
