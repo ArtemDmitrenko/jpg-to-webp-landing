@@ -158,6 +158,7 @@ function render(p) {
             <p>The free <strong>JPG to WebP</strong> extension for Chrome puts the converter one click away — on every website.</p>
             <ul class="ticks">
               <li>${icon.check} Right-click any image → convert to WebP, JPG or PNG</li>
+              <li>${icon.check} Grab all images from the current page and save them as one ZIP</li>
               <li>${icon.check} Drag &amp; drop files into the toolbar popup</li>
               <li>${icon.check} Bulk conversion with one ZIP download — no 10-file limit</li>
               <li>${icon.check} Quality and resize settings (by width, height or longest side)</li>
@@ -180,6 +181,7 @@ function render(p) {
                 <tr><td>Files stay on your device</td><td>${yes}</td><td>${yes}</td></tr>
                 <tr><td>Images per batch</td><td>up to 10</td><td>unlimited</td></tr>
                 <tr><td>Right-click images on any website</td><td>${no}</td><td>${yes}</td></tr>
+                <tr><td>Grab all images from a web page</td><td>${no}</td><td>${yes}</td></tr>
                 <tr><td>Resize while converting</td><td>${no}</td><td>${yes}</td></tr>
                 <tr><td>Always one click away</td><td>${no}</td><td>${yes}</td></tr>
               </tbody>
